@@ -1,0 +1,11 @@
+CREATE TABLE studentdetails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    gender VARCHAR(10),
+    email VARCHAR(255),
+    address TEXT,
+    enrollment_date DATE,
+    phone_number VARCHAR(20),
+    date_of_birth DATE
+);
